@@ -1,16 +1,17 @@
-## Hi there 👋
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
-<!--
-**dcyukselen/dcyukselen** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+class :
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def __init__(self):
+        self.name = "Deniz Can Yukselen Na"
+        self.role = "Cyber Security and Network Security Expert"
+        self.language_spoken = ["tr-TR", "en_US"]
+
+    def say_hi(self):
+        print("Thanks for dropping by, hope you find some of my work interesting.")
+
+
+me = CyberSecurityExpert()
+me.say_hi()
